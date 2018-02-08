@@ -27,6 +27,7 @@ hi IncSearch ctermfg=52 ctermbg=185 cterm=NONE guifg=#372725 guibg=#d9d762 gui=N
 hi Search    ctermfg=52 ctermbg=185 cterm=NONE guifg=#372725 guibg=#d9d762 gui=NONE
 hi Directory ctermfg=67 ctermbg=NONE cterm=NONE guifg=#6c99bb guibg=NONE gui=NONE
 hi TabLine ctermbg=black
+hi TabLineSel ctermbg=white ctermfg=black
 hi clear TabLineFill
 hi Folded ctermbg=59 ctermfg=white
 
