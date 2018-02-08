@@ -11,21 +11,24 @@ endif
 let g:colors_name = "birds-of-paradise"
 
 hi Cursor ctermfg=52 ctermbg=253 cterm=NONE guifg=#372725 guibg=#DBF5F3 gui=NONE
-hi Visual ctermfg=NONE ctermbg=125 cterm=NONE guifg=NONE guibg=#a40042 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#493a35 gui=NONE
+hi Visual ctermfg=NONE ctermbg=black cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi CursorLineNR cterm=bold ctermfg=white
 hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#493a35 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#493a35 gui=NONE
-hi LineNr ctermfg=102 ctermbg=59 cterm=NONE guifg=#8f8475 guibg=#493a35 gui=NONE
-hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#6a5d53 guibg=#6a5d53 gui=NONE
+hi LineNr ctermfg=8 ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi VertSplit ctermfg=black ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi MatchParen ctermfg=203 ctermbg=NONE cterm=underline guifg=#ef5d32 guibg=NONE gui=underline
-hi StatusLine ctermfg=188 ctermbg=59 cterm=bold guifg=#e6e1c4 guibg=#6a5d53 gui=bold
-hi StatusLineNC ctermfg=188 ctermbg=59 cterm=NONE guifg=#e6e1c4 guibg=#6a5d53 gui=NONE
+hi StatusLine ctermfg=NONE ctermbg=black cterm=bold guifg=NONE guibg=NONE gui=bold
+hi StatusLineNC ctermfg=NONE ctermbg=black guifg=NONE guibg=NONE 
 hi Pmenu ctermfg=215 ctermbg=NONE cterm=NONE guifg=#efac32 guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=125 cterm=NONE guifg=NONE guibg=#a40042 gui=NONE
 hi IncSearch ctermfg=52 ctermbg=185 cterm=NONE guifg=#372725 guibg=#d9d762 gui=NONE
 hi Search    ctermfg=52 ctermbg=185 cterm=NONE guifg=#372725 guibg=#d9d762 gui=NONE
 hi Directory ctermfg=67 ctermbg=NONE cterm=NONE guifg=#6c99bb guibg=NONE gui=NONE
-hi Folded ctermfg=59 ctermbg=52 cterm=NONE guifg=#6b4e32 guibg=#372725 gui=NONE
+hi TabLine ctermbg=black
+hi clear TabLineFill
+hi Folded ctermbg=59 ctermfg=white
 
 hi Normal ctermfg=188 ctermbg=NONE cterm=NONE guifg=#e6e1c4 guibg=#372725 gui=NONE
 hi Boolean ctermfg=67 ctermbg=NONE cterm=NONE guifg=#6c99bb guibg=NONE gui=NONE
